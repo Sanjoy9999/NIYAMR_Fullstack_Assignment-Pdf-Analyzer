@@ -58,8 +58,8 @@ A web application that analyzes PDF documents against user-defined rules using L
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Sanjoy9999/Pdf-Analyzer--NIYAMR_Fullstack_Assignment.git
-   cd resume-analyzer
+   git clone https://github.com/Sanjoy9999/NIYAMR_Fullstack_Assignment-Pdf-Analyzer.git
+   cd NIYAMR_Fullstack_Assignment-Pdf-Analyzer
    ```
 
 2. **Set up environment variables**
@@ -268,7 +268,7 @@ docker-compose up -d --build
 ## 📁 Project Structure
 
 ```
-resume-analyzer/
+NIYAMR_Fullstack_Assignment-Pdf-Analyzer/
 ├── docker-compose.yml          # Docker orchestration configuration
 ├── README.md                   # This file
 └── server/
