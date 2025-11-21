@@ -1,0 +1,31 @@
+{
+  "name": "pdf_explainer_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.3",
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "@napi-rs/canvas": "^0.1.82",
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "form-data": "^4.0.5",
+    "multer": "^2.0.2",
+    "pdf-lib": "^1.17.1",
+    "unpdf": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
